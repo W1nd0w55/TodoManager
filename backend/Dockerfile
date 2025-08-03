@@ -1,10 +1,10 @@
 FROM debian
 
-RUN apt update && apt install python3-django -y
+RUN apt update && apt install python3-pip -y
+RUN pip install django --break-system-packages
 
 WORKDIR /backend
-
-COPY . /backend
+COPY . .
 
 EXPOSE 8000
 
