@@ -1,0 +1,3 @@
+[submodule "tools/templated-settings"]
+	path = tools/templated-settings
+	url = https://github.com/W1nd0w55/templated-settings
