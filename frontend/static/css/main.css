@@ -1,0 +1,35 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header, main, footer
+{
+    padding: 5px;
+}
+
+header
+{
+    background-image: linear-gradient(to right, #ff9090, #ff90ff);
+    width: auto;
+    top: 0px;
+    border-bottom: 2px solid black;
+}
+
+main
+{
+    background-image: linear-gradient(to right bottom, #ff3030, #ff20ff);
+    height: 100vh;
+}
+
+main, footer
+{
+    text-align: center;
+}
+
+footer
+{
+    background-image: linear-gradient(to top, #222, #262626);
+    color: #fff;
+}
