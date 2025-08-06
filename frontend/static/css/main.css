@@ -11,7 +11,7 @@ header, main, footer
 
 header
 {
-    background-image: linear-gradient(to right, #f99, #f9f);
+    background-image: linear-gradient(to right, #ff9090, #ff90ff);
     width: auto;
     top: 0px;
     border-bottom: 2px solid black;
@@ -19,7 +19,7 @@ header
 
 main
 {
-    background-image: linear-gradient(to right bottom, #f22, #f2f);
+    background-image: linear-gradient(to right bottom, #ff3030, #ff20ff);
     height: 100vh;
 }
 
