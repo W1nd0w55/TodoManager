@@ -22,12 +22,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-w9kh)q5n)v&0@&%qjmwx7_c@^4-=59yxm_uuq-oma2l$ns3o(p'
 
-
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-
 
 ALLOWED_HOSTS = ['*']
 
@@ -130,7 +126,4 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-
 BACKEND_API_SERVER = 'localhost:8001'
-
