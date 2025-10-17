@@ -2,8 +2,14 @@ services:
   frontend:
     build: ./frontend
     restart: always
+    networks:
+      network:
+        ipv4_address: 10.69.42.102
+  proxy:
+    build: ./proxy
+    restart: always
     ports:
-    - 80:5173
+    - 80:80
     networks:
       network:
         ipv4_address: 10.69.42.101
