@@ -8,4 +8,4 @@ COPY . .
 EXPOSE 5173
 
 RUN npm i vite@latest
-ENTRYPOINT [ "npm", "run", "dev", "--host" ]
+ENTRYPOINT [ "npm", "run", "dev" ]
