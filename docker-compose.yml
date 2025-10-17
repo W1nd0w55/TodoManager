@@ -1,0 +1,15 @@
+services:
+  frontend:
+    build: ./frontend
+    restart: always
+    ports:
+    - 80:5173
+    networks:
+      network:
+        ipv4_address: 10.69.42.101
+networks:
+  network:
+    ipam:
+      driver: default
+      config:
+      - subnet: 10.69.42.0/24
