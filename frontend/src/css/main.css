@@ -1,0 +1,15 @@
+body {
+    font-size: 20pt;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+#top-bar {
+    border-bottom: 5px solid black;
+    /*width: 100vw;*/
+    padding: 5px;
+}
+
+h1 {
+    margin: 0px;
+}
