@@ -13,3 +13,8 @@ body {
 h1 {
     margin: 0px;
 }
+
+#main {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, white, #dfdfdf);
+}
