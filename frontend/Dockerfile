@@ -7,5 +7,5 @@ COPY . .
 
 EXPOSE 5173
 
-RUN npm i vite@latest
+RUN npm i vite@latest react-router-dom
 ENTRYPOINT [ "npm", "run", "dev" ]
