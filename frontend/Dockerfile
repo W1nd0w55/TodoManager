@@ -8,4 +8,5 @@ COPY . .
 EXPOSE 5173
 
 RUN npm i vite@latest react-router-dom
+RUN npm cache clean --force
 ENTRYPOINT [ "npm", "run", "dev" ]

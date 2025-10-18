@@ -1,12 +1,16 @@
 import TopBar from '../components/TopBar.tsx';
 import Main from '../components/Main.tsx';
-import '../css/main.css';
+import Card from '../components/Card.tsx';
+import '../css/common.css';
+import '../css/index.css';
 
 export default () => {
 	return (<>
 		<TopBar />
 		<Main>
-			<h2>HI</h2>
+			<Card>
+				<h2>Hii</h2>
+			</Card>
 		</Main>
 	</>);
 };
