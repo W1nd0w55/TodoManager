@@ -9,7 +9,11 @@ export default () => {
 		<TopBar />
 		<Main>
 			<Card>
-				<h2>Hii</h2>
+				<h2>Plan your day like never before.</h2>
+				<p>
+					With TodoManager, you can organize tasks,<br />
+					and track the amount of work you've done.
+				</p>
 			</Card>
 		</Main>
 	</>);
