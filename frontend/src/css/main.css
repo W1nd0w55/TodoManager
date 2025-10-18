@@ -2,6 +2,7 @@ body {
     font-size: 20pt;
     font-family: sans-serif;
     margin: 0px;
+    overflow: hidden;
 }
 
 #top-bar {
