@@ -1,3 +1,8 @@
+import Card from '../components/Card';
+import '../css/Main.css';
+
 export default () => {
-	return <h1>hi</h1>;
+	return (<>
+		<Card>aaaaaaaaaaa</Card>
+	</>);
 };
