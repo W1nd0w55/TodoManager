@@ -1,8 +1,14 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
 #root {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-color: #40d080;
+    background-color: #42cef5;
 }

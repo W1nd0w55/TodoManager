@@ -1,5 +1,7 @@
 .card {
-    background-color: #42cef5;
-    border: 2px solid white;
+    background-color: #32fef5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
     padding: 20px;
+    text-align: center;
 }
