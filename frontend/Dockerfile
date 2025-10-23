@@ -1,6 +1,4 @@
-FROM node:trixie-slim
-
-RUN apt update && apt upgrade -y
+FROM node:alpine3.21
 
 WORKDIR /frontend
 COPY . .
