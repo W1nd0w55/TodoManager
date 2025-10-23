@@ -12,3 +12,11 @@ body {
 
     background-color: #42cef5;
 }
+
+.btn-like-link {
+    color: black;
+    text-decoration: none;
+    background-color: #f0ad67;
+    padding: 10px;
+    border-radius: 5px;
+}
