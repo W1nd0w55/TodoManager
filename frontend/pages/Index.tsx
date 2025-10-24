@@ -2,7 +2,6 @@ import Card from '../components/Card';
 import '../css/Main.css';
 
 export default () => {
-	//TODO: add tailwind
 	return <Card>
 		<h2 style={{ marginTop: 0 }}>Plan your day like never before.</h2>
 		<p>With TodoManager, you can manage tasks,<br />
