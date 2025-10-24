@@ -6,7 +6,7 @@ interface Props {
 };
 
 export default (props: Props) => {
-    return (<div className="card">
+    return <div className="card">
         {props.children}
-    </div>);
+    </div>;
 };
