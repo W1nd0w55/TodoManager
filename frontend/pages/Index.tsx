@@ -1,4 +1,5 @@
 import Card from '../components/Card';
+import ButtonLikeLink from '../components/ButtonLikeLink';
 import '../css/Main.css';
 
 export default () => {
@@ -7,8 +8,8 @@ export default () => {
 		<p>With TodoManager, you can manage tasks,<br />
 		and track the amount of work you've done.</p>
 		<div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', gap: '20px' }}>
-			<a className="btn-like-link" href="/login">Log In</a>
-			<a className="btn-like-link" href="/signup">Sign Up</a>
+			<ButtonLikeLink href="/login">Log In</ButtonLikeLink>
+			<ButtonLikeLink href="/signup">Sign Up</ButtonLikeLink>
 		</div>
 	</Card>;
 };
