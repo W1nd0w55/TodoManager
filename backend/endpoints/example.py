@@ -1,4 +1,4 @@
-from json import dumps as jsonify
+from flask import jsonify, Response
 
-def example() -> str:
+def example() -> Response:
     return jsonify({'hello': 'world'})
