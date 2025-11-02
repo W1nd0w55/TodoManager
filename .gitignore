@@ -23,5 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# Cache
+.mypy_cache
+__pycache__
+
 # Environment
 .env

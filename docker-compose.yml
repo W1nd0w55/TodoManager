@@ -9,12 +9,23 @@ services:
         ipv4_address: 10.69.42.101
     depends_on:
     - frontend
+    - backend
   frontend:
     build: ./frontend
     restart: always
+    depends_on:
+    - backend
     networks:
       network:
         ipv4_address: 10.69.42.102
+  backend:
+    build: ./backend
+    restart: always
+    depends_on:
+    - db
+    networks:
+      network:
+        ipv4_address: 10.69.42.103
   db:
     image: postgres:14.19-alpine3.21
     restart: always
