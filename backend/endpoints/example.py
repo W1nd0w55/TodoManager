@@ -1,4 +1,4 @@
-from flask import jsonify, Response
+from . import JSON
 
-def example() -> Response:
-    return jsonify({'hello': 'world'})
+def example() -> JSON:
+    return {'hello': 'world'}

@@ -1,0 +1,1 @@
+JSON = dict[str, str | int | bool]
