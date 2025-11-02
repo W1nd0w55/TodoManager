@@ -2,13 +2,16 @@ import Card from '../components/Card.tsx';
 import ButtonLikeLink from '../components/ButtonLikeLink.tsx';
 import { useEffect } from 'react';
 
+const getData = async (url: string) => {
+	const response: Response = await fetch(url);
+	const data: any = await response.json();
+	console.log(data);
+	return data;
+};
+
 export default () => {
 	useEffect(() => {
-		fetch('/api/example').then(
-			(res: Response) => res.json()
-		).then(
-			(data: any) => console.log(data)
-		);
+		getData('/api/example');
 	}, []);
 
 	return <Card>
