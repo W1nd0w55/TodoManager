@@ -1,5 +1,5 @@
-import Card from '../components/Card';
-import ButtonLikeLink from '../components/ButtonLikeLink';
+import Card from '../components/Card.tsx';
+import ButtonLikeLink from '../components/ButtonLikeLink.tsx';
 
 export default () => {
 	return <Card>
